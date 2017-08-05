@@ -1,1 +1,98 @@
-main.css
+.logo{
+	height: 40px;
+    width: 45px;
+    position: relative;
+    right: 183px;
+    top: 3px;
+}
+.logoGrande{
+	height: 184px;
+    width: 220px;
+    position: relative;
+    top: 14px;
+}
+.img-thum{
+	height: 100px;
+}
+/*acá dejamos en css de thumbnail*/
+.thumbnail {
+    position: relative;
+    padding: 0px;
+    margin-bottom: 20px;
+}
+
+.thumbnail > h4 {
+    padding: 7px 5px 0px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.thumbnail h4 .info {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    font-size: 0.6em;
+    padding-left: 15px;
+    border-top-right-radius: 3px;
+    border-bottom-left-radius: 4px;
+    border-radius: 0px;
+    border-bottom-left-radius: 5px;
+    cursor:  pointer;
+}
+
+.thumbnail h4 .info > span {
+    margin-right: 10px;   
+}
+
+.thumbnail img {
+    width: 100%;
+}
+.thumbnail a.btn {
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+}
+
+/*Footer*/
+footer{
+    background-color:rgba(44, 62, 80,1.0);
+    height:300px;
+    position:absolute;
+    width:100%;
+    font-weight:lighter;
+    color:white;
+}
+.footerHeader{
+    width:100%;
+    padding:1em;
+    background-color:rgba(52, 73, 94,1.0);
+    text-align:center;
+    color:white;
+}
+footer h3{
+    font-weight:lighter;
+}
+footer ul{
+    padding-left:5px;
+    list-style:none;
+}
+footer p{
+    text-align : justify;
+    font-size : 12px;
+}
+footer iframe {
+    width:100%;
+    position:relative;
+    height:170px;
+}
+.sm{
+    list-style:none;
+    overflow:auto;
+}
+.sm li {
+    display: inline;
+    padding:5px;
+    float:left;
+} 
+.sm li a img {
+    width:32px;
+}
