@@ -61,6 +61,16 @@ footer{
     font-weight:lighter;
     color:white;
 }
+@media screen and (max-width: 990px) {
+   footer{
+    background-color:rgba(44, 62, 80,1.0);
+    height:714px;
+    position:absolute;
+    width:100%;
+    font-weight:lighter;
+    color:white;
+} 
+}
 .footerHeader{
     width:100%;
     padding:1em;
